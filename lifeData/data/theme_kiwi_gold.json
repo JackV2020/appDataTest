@@ -1,0 +1,24 @@
+ { "Name" : "Kiwi Gold"
+     , "heartBeat"              : 0
+     , "radiusLife"             : "cellSize / 2"
+     , "colorLife"              : "black"
+     , "borderColorLife"        : "gold"
+     , "borderWidthLife"        : "cellSize / 2 - 2"
+
+     , "colorDeadNoClick"       : "transparent"
+     , "borderColorDeadNoClick" : "white"
+     , "borderWidthDeadNoClick" : 0
+
+     , "colorDeadClick"         : "white"
+     , "borderColorDeadClick"   : "pink"
+     , "borderWidthDeadClick"   : 1
+
+     , "radiusDim"              : "cellSize / 2"
+     , "colorDimLife"           : "black"
+     , "borderColorDimLife"     : "gold"
+     , "borderWidthDimLife"     : "cellSize / 2 - 2"
+
+     , "colorDimDead"           : "black"
+     , "borderColorDimDead"     : "black"
+     , "borderWidthDimDead"     : 0
+  }

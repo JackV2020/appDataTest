@@ -1,0 +1,4 @@
+ { "Type" : "T1" , "Name" : "To 4 Blinkers" , "WrapMode" : false , "MinRowsCols" : [11,11] , "Positioning" : [ [4,4,1,1] ] , "Speed" : 9, "Array" : [
+        [ 0, 1]
+      , [ 1, 0] , [ 1, 1] , [ 1, 2]
+    ] }

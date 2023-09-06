@@ -1,0 +1,24 @@
+ { "Name" : "Block"
+     , "heartBeat"              : 0
+     , "radiusLife"             : "0"
+     , "colorLife"              : "black"
+     , "borderColorLife"        : "#dbdbdb"
+     , "borderWidthLife"        : "cellSize / 4"
+
+     , "colorDeadNoClick"       : "transparent"
+     , "borderColorDeadNoClick" : "white"
+     , "borderWidthDeadNoClick" : 0
+
+     , "colorDeadClick"         : "white"
+     , "borderColorDeadClick"   : "pink"
+     , "borderWidthDeadClick"   : 1
+
+     , "radiusDim"              : "0"
+     , "colorDimLife"           : "white"
+     , "borderColorDimLife"     : "black"
+     , "borderWidthDimLife"     : "cellSize / 4"
+
+     , "colorDimDead"           : "black"
+     , "borderColorDimDead"     : "black"
+     , "borderWidthDimDead"     : 0
+  }

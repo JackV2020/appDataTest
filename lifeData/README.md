@@ -1,4 +1,43 @@
- To add an Example you want to know how to build it and send it to me :
+The text below explains how to add an example or a theme.
+
+First you need to fork https://github.com/JackV2020/appDataTest, 
+next make your local changes like described below
+and finaly create a pull request for me.
+
+There are 2 methods to add an example.
+The difference is the way the cells are described.
+Both methods ask you to create a file with 1 required field 
+and add that file to all_examples.json.
+
+ Example method 1 : "Text"
+
+ 1) Start on the Preset screen of your Toon and click '3 x 3'.
+    Next select "Glider" and switch to the Life screen.
+    On the Life screen click "No Clicks/Click Cells" so you see the grid.
+    Select the theme Black/White.
+
+ 2) Think there is a rectangle exactly around the live cells.
+    It is 3 rows and 3 columns. So not the full screen.
+    The upper left cell in your rectangle is just to the left of the 
+    upper cell which is alive. 
+    This cell which is not alive has row,column coordinates 0,0.
+
+ 3) For each row write down a series of dots (dead cells) and zeros (live cells).
+    For the example this would be :
+    <br>.0.
+    <br>..0
+    <br>000
+    
+ 4) Copy example_glider.json to example_<some_descriptive_name>.json.
+    
+ 5) Put the rows in 1 string and seperate the rows by a space like :
+    ".0. ..0 000" and use this for the Text field in your file.
+    "Text" is the only required field. Optional fields are described below.
+
+ 6) Add your entry at the top of all_examples.json.
+    The 3 fields Type, Name and file are required fields.
+
+ Example method 2 : "Array"
 
  1) Start on the Preset screen of your Toon and click '3 x 3'.
     Next select "Captured Cross" and switch to the Life screen.
@@ -17,36 +56,42 @@
     1 Row lower is row 1 with 3 cells :  1,0  ;  1,1  ;  1,2 
     Coordinates are what you need to describe your example.
 
- 4) To build and test your example you can resize the screen on the
-    Presets screen, then go to the Life screen and select Wall or Wrap
-    mode and click "No Clicks/Click Cells" so you see the grid.
-    Click Clear to clear the screen and start clicking the cells.
-    When ready...
-    Note the coordinates of the cells or make a picture with your phone.
-    Click Start Life to test and repeat until ready.
+ 4) Copy example_captured_cross_fixed.json to example_<some_descriptive_name>.json
 
- 5) Put your example in lifeData.json in my github in 
-    https://github.com/JackV2020/appDataTest/tree/main/lifeData (fork, add, PR etc.)
-    The first entry is "CommentsExamples" and is about all the fields.
-    You may want to check "Captured Cross" which you checked in 3).
-    This is one of the few using SetRowsCols. The Positioning is
-    [1,1,1,1]. First 1 puts the composition on row 1, second 1 puts it
-    on column 1. Third 1 makes rows to be added downwards and fourth 1
-    makes columns be added to the right. You may also want to check
-    the positioning of "3 Small Spaceships" which uses different numbers
-    and also a -1 for the row direction.
+ 5) Put the coordinates in 1 array like you see in the file you just copied : 
+    [[0,1],[1,0],[1,1],[1,2]] and use this for the Array field in your file.
+    "Array" is the only required field. Optional fields are described below.
+
+ 6) Add your entry at the top of all_examples.json. 
+    The 3 fields Type, Name and file are required fields.
+
+Optional fields of example_<some_descriptive_name>.json :
+
+    Type : T1 | T2 , T1 for Toon 1 and Toon 2, T2 for Toon 2 only. 
+            T1 restrictions performance and size max 33x33, Toon 2 size 51x51
+    Name : text which comes up in the pull down menu
+    WrapMode : true | false     , true makes it wrap, false causes closed walls
+    MinRowsCols : [r.c]         , sets the minimum number of rows and columns
+    SetRowsCols : [r,c]         , sets the exact number of rows and columns
+    Speed : 1..9                , sets the speed
+    PreferredTheme : theme name , Name of theme (see all_themes.json)
+    Positioning : [ [r,c,rdir,cdir] [ [ , [r,c,rdir,cdir] ] , [r,c,rdir,cdir] .....] ]
+        array of 1 or more arrays describing where to position and in which direction to build
+        the construction. An example is in example_4_gliders.json.
 
  To add a Theme you want to know how to build it and send it to me :
 
- 1) To get started you open lifeData.json in
-    https://github.com/JackV2020/appDataTest/tree/main/lifeData
-    and find the section "CommentsThemes"
+ 1) To get started you open theme_black_white.json.
     
- 2) Select a theme on your Toon and compare whith what it looks like 
-    in the section "lifeThemes" in lifeData.json. 
-    Do this for some themes to get an idea of what is possible and what
+ 2) Select the Black White theme on your Toon and compare with what
+    you see in the file. Use "No Clicks/Click Cells" so you see the grid.
+
+ 3) Do the same for some themes to get an idea of what is possible and what
     values you may need for your theme.
 
- 3) Put your theme in the right section in lifeData.json in 
-    https://github.com/JackV2020/appDataTest/tree/main/lifeData.
-    (fork, add, PR etc.)
+ 4) Copy any theme file to theme_<some_descriptive_name>.json and put
+    your idea in. All fields are optional but I advise to use them all
+    to avoid surprises from the theme the user selected before your theme.
+
+ 5) Add your entry at the top of all_themes.json
+    The 2 fields Name and file are required fields.

@@ -1,0 +1,24 @@
+ { "Name" : "Plum (2 sec)"
+     , "heartBeat"              : 2
+     , "radiusLife"             : "cellSize / 2"
+     , "colorLife"              : "darkolivegreen"
+     , "borderColorLife"        : "plum"
+     , "borderWidthLife"        : "cellSize * 0.4 "
+
+     , "colorDeadNoClick"       : "transparent"
+     , "borderColorDeadNoClick" : "white"
+     , "borderWidthDeadNoClick" : 0
+
+     , "colorDeadClick"         : "white"
+     , "borderColorDeadClick"   : "pink"
+     , "borderWidthDeadClick"   : 1
+
+     , "radiusDim"              : "cellSize / 2"
+     , "colorDimLife"           : "darkolivegreen"
+     , "borderColorDimLife"     : "plum"
+     , "borderWidthDimLife"     : "cellSize * 0.45"
+
+     , "colorDimDead"           : "black"
+     , "borderColorDimDead"     : "black"
+     , "borderWidthDimDead"     : 0
+  }

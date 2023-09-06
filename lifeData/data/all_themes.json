@@ -1,0 +1,18 @@
+{   "lifeThemes": [
+  { "Name" : "Black/White" , "file" : "theme_black_white.json" }
+, { "Name" : "Banana (2 sec)" , "file" : "theme_banana_2.json" }
+, { "Name" : "Block" , "file" : "theme_block.json" }
+, { "Name" : "Chocolate" , "file" : "theme_chocolate.json" }
+, { "Name" : "Dot" , "file" : "theme_dot.json" }
+, { "Name" : "Egg" , "file" : "theme_egg.json" }
+, { "Name" : "Kiwi Gold" , "file" : "theme_kiwi_gold.json" }
+, { "Name" : "Kiwi Green" , "file" : "theme_kiwi_green.json" }
+, { "Name" : "Orange" , "file" : "theme_orange.json" }
+, { "Name" : "Plum (2 sec)" , "file" : "theme_plum_2.json" }
+, { "Name" : "Stop Sign" , "file" : "theme_stop_sign.json" }
+, { "Name" : "Tomato" , "file" : "theme_tomato.json" }
+, { "Name" : "Tomato Soup" , "file" : "theme_tomato_soup.json" }
+, { "Name" : "Washer" , "file" : "theme_washer.json" }
+, { "Name" : "Water (2 sec)" , "file" : "theme_water_2.json" }
+, { "Name" : "Water Melon" , "file" : "theme_water_melon.json" }
+]}

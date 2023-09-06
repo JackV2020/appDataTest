@@ -1,0 +1,24 @@
+ { "Name" : "Banana (2 sec)"
+     , "heartBeat"              : 2
+     , "radiusLife"             : "cellSize / 6"
+     , "colorLife"              : "white"
+     , "borderColorLife"        : "yellow"
+     , "borderWidthLife"        : "Math.max( 2, cellSize * 0.45 )"
+
+     , "colorDeadNoClick"       : "transparent"
+     , "borderColorDeadNoClick" : "white"
+     , "borderWidthDeadNoClick" : 0
+
+     , "colorDeadClick"         : "white"
+     , "borderColorDeadClick"   : "pink"
+     , "borderWidthDeadClick"   : 1
+
+     , "radiusDim"              : "cellSize / 6"
+     , "colorDimLife"           : "white"
+     , "borderColorDimLife"     : "yellow"
+     , "borderWidthDimLife"     : "Math.max( 2, cellSize * 0.45 )"
+
+     , "colorDimDead"           : "black"
+     , "borderColorDimDead"     : "black"
+     , "borderWidthDimDead"     : 0
+  }

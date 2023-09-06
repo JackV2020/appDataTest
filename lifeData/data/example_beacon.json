@@ -1,0 +1,6 @@
+ { "Type" : "T1" , "Name" : "Beacon", "MinRowsCols" : [6,6] , "Positioning" : [ [1,1,1,1] ], "Speed" : 9, "Array" : [
+        [ 0, 0] , [0 , 1]
+      , [ 1, 0]
+      , [ 2, 3]
+      , [ 3, 2] , [ 3, 3]
+    ] }
