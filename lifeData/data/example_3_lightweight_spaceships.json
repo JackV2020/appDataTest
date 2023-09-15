@@ -1,0 +1,8 @@
+{"Name":"3 Small Spaceships","WrapMode":true,"MinRowsCols":[8,33],"Positioning":[[1,0,1,1],[7,8,-1,1],[2,25,1,1]],"Speed":9,"Array":[
+[0,0],[0,3]
+,[1,4]
+,[2,0],[2,4]
+,[3,1],[3,2],[3,3],[3,4]
+]
+,"link":"https://conwaylife.com/wiki/Lightweight_spaceship"
+}

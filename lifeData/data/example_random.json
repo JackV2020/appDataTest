@@ -1,3 +1,4 @@
- { "Type" : "T1" , "Name" : "Random" 
-      , "Comment" : "Leave this one in place. It is a special entry to toggle random cells"
-      , "Comment" : "From here on enter them as you want them ordered in the menu." }
+{"Name":"Random"
+,"Comment":"Leave this one in place. It is a special entry to toggle random cells."
+,"link":"No link for this."
+}

@@ -1,43 +1,20 @@
 The text below explains how to add an example or a theme.
 
+The easiest way, for you ;-) that is, is to open an issue at https://github.com/JackV2020/appDataTest
+and describe what you want me to add.
+
+However, you may want to do it yourself.....
+
 First you need to fork https://github.com/JackV2020/appDataTest, 
 next make your local changes like described below
 and finaly create a pull request for me.
 
-There are 2 methods to add an example.
+There are 3 methods to add an example.
 The difference is the way the cells are described.
-Both methods ask you to create a file with 1 required field 
+All 3 methods ask you to create a file with 1 required field 
 and add that file to all_examples.json.
 
- Example method 1 : "Text"
-
- 1) Start on the Preset screen of your Toon and click '3 x 3'.
-    Next select "Glider" and switch to the Life screen.
-    On the Life screen click "No Clicks/Click Cells" so you see the grid.
-    Select the theme Black/White.
-
- 2) Think there is a rectangle exactly around the live cells.
-    It is 3 rows and 3 columns. So not the full screen.
-    The upper left cell in your rectangle is just to the left of the 
-    upper cell which is alive. 
-    This cell which is not alive has row,column coordinates 0,0.
-
- 3) For each row write down a series of dots (dead cells) and zeros (live cells).
-    For the example this would be :
-    <br>.0.
-    <br>..0
-    <br>000
-    
- 4) Copy example_glider.json to example_<some_descriptive_name>.json.
-    
- 5) Put the rows in 1 string and seperate the rows by a space like :
-    ".0. ..0 000" and use this for the Text field in your file.
-    "Text" is the only required field. Optional fields are described below.
-
- 6) Add your entry at the top of all_examples.json.
-    The 3 fields Type, Name and file are required fields.
-
- Example method 2 : "Array"
+ Example method 1 : "Array"
 
  1) Start on the Preset screen of your Toon and click '3 x 3'.
     Next select "Captured Cross" and switch to the Life screen.
@@ -63,6 +40,66 @@ and add that file to all_examples.json.
     "Array" is the only required field. Optional fields are described below.
 
  6) Add your entry at the top of all_examples.json. 
+    The 3 fields Type, Name and file are required fields.
+
+ Example method 2 : "RLET" (based on standard RLE)
+
+ 1) Start on the Preset screen of your Toon and click '3 x 3'.
+    Next select "Blinker" and switch to the Life screen.
+    On the Life screen click "No Clicks/Click Cells" so you see the grid.
+    Select the theme Black/White.
+
+ 2) Think there is a rectangle exactly around the live cells.
+    It is 1 row and 3 columns. So not the full screen.
+    The upper left cell in your rectangle is the upper left cell and
+    it is alive.
+    This cell which is alive has row,column coordinates 0,0.
+
+ 3) The RLE standard part used are :
+    <br>[count]o    for live cells like 3o for 3 live cells
+    <br>[count]b    for dead cells like 14b for 14 dead cells
+    <br>[count]$    to end a row and to skip rows like 3$ to end and skip 2
+    
+ 4) Copy example_wasp.json to example_<some_descriptive_name>.json.
+    
+ 5) Put the rows in 1 string and seperate the rows with $'s like
+    "3o8$3b3o" and use this for the RLET field in your file.
+    "RLET" is the only required field. Optional fields are described below.
+    
+ 6) Add your entry at the top of all_examples.json.
+    The 3 fields Type, Name and file are required fields.
+
+ Example method 3 : "Text" (based on standard Plaintext)
+
+ 1) Start on the Preset screen of your Toon and click '3 x 3'.
+    Next select "Glider" and switch to the Life screen.
+    On the Life screen click "No Clicks/Click Cells" so you see the grid.
+    Select the theme Black/White.
+
+ 2) Think there is a rectangle exactly around the live cells.
+    It is 3 rows and 3 columns. So not the full screen.
+    The upper left cell in your rectangle is just to the left of the 
+    upper cell which is alive. 
+    This cell which is not alive has row,column coordinates 0,0.
+
+ 3) For each row write down a series of dots (dead cells) and zeros (live cells).
+    For the example this would be :
+    <br>.0. <- dead cell at the end of the row
+    <br>..0
+    <br>000
+    <br>Note that dead cells at the end of a row are not required.
+    
+ 4) Copy example_glider.json to example_<some_descriptive_name>.json.
+    
+ 5) Put the rows in 1 string and seperate the rows by a space like :
+    ".0. ..0 000" and use this for the Text field in your file.
+    "Text" is the only required field. Optional fields are described below.
+    
+    About dead cells and empty rows....
+    Leaving out 1 dead cell like ".0 ..0 000" would give the same result.
+    When you have an empty row just add an extra space for the extra row.
+
+ 6) Add your entry at the top of all_examples.json.
     The 3 fields Type, Name and file are required fields.
 
 Optional fields of example_<some_descriptive_name>.json :

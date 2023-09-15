@@ -1,25 +1,47 @@
 {   "lifeExamples": [
-  { "Type": "T1", "Name": "Toon", "file": "example_toon.json"}
+
+  { "comment" : "A Name starting with a space is used as a seperator in ScrollMenu"}
+
+, { "comment" : "Activate/deactivate any entry by changing the Type T1/T2 to anything else."}
+
+, { "comment" : "Types T1 and T2 are reserved by me since I am preparing and testing these."}
+
+, { "Type": "T1", "Name": " - -- --- Starters --- -- -"}
+, { "Type": "T1", "Name": "Toon", "file": "example_toon.json"}
 , { "Type": "T1", "Name": "Random", "file": "example_random.json"}
+
+, { "Type": "T2", "Name": " - -- --- Glider Guns --- -- -"}
+, { "Type": "T2", "Name": "Gosper Glider Gun", "file": "example_gosper_glider_gun.json"}
+, { "Type": "T2", "Name": "New Gun 1", "file": "example_new_gun_1.json"}
+
+, { "Type": "T1", "Name": " - -- --- Methuselahs --- -- -"}
+, { "Type": "T1", "Name": "Captured Cross (Fixed)", "file": "example_captured_cross_fixed.json"}
+, { "Type": "T1", "Name": "Traffic Light 1", "file": "example_traffic_light_1.json"}
+
+, { "Type": "T1", "Name": " - -- --- Oscillators --- -- -"}
 , { "Type": "T1", "Name": "A for All", "file": "example_a_for_all.json"}
 , { "Type": "T1", "Name": "Beacon", "file": "example_beacon.json"}
-, { "Type": "T2", "Name": "Big Spaceship", "file": "example_big_spaceship.json"}
 , { "Type": "T1", "Name": "Blinker", "file": "example_blinker.json"}
-, { "Type": "T1", "Name": "Captured Cross (Fixed)", "file": "example_captured_cross_fixed.json"}
 , { "Type": "T1", "Name": "Corner (Fixed)", "file": "example_corner_fixed.json"}
-, { "Type": "T1", "Name": "Glider", "file": "example_glider.json"}
-, { "Type": "T2", "Name": "Goose", "file": "example_goose.json"}
-, { "Type": "T2", "Name": "Gosper Glider Gun", "file": "example_gosper_glider_gun.json"}
-, { "Type": "T2", "Name": "New Gun", "file": "example_new_gun.json"}
 , { "Type": "T1", "Name": "Pentadecathlon", "file": "example_pentadecathlon.json"}
-, { "Type": "T2", "Name": "Pi", "file": "example_pi.json"}
+, { "Type": "T2", "Name": "Pi Portraitor", "file": "example_pi_portraitor.json"}
 , { "Type": "T1", "Name": "Pulsar", "file": "example_pulsar.json"}
-, { "Type": "T1", "Name": "Small Spaceship", "file": "example_small_spaceship.json"}
+
+, { "Type": "T1", "Name": " - -- --- Spaceships --- -- -"}
+, { "Type": "T2", "Name": "Big Spaceship", "file": "example_big_spaceship.json"}
+, { "Type": "T2", "Name": "Canada Goose", "file": "example_canada_goose.json"}
+, { "Type": "T1", "Name": "Glider", "file": "example_glider.json"}
+, { "Type": "T1", "Name": "Light Weight Spaceship", "file": "example_lightweight_spaceship.json"}
+, { "Type": "T2", "Name": "Spider", "file": "example_spider.json"}
 , { "Type": "T2", "Name": "Swan", "file": "example_swan.json"}
-, { "Type": "T1", "Name": "To 4 Blinkers", "file": "example_to_4_blinkers.json"}
-, { "Type": "T2", "Name": "Upwards Spaceship", "file": "example_upwards_spaceship.json"}
+
+, { "Type": "T222", "Name": " - -- --- Wicks --- -- -"}
+
+, { "Type": "T1", "Name": " - -- --- Combinations --- -- -"}
 , { "Type": "T2", "Name": "2 Gosper Glider Guns", "file": "example_2_gosper_glider_guns.json"}
-, { "Type": "T1", "Name": "3 Small Spaceships", "file": "example_3_small_space_ships.json"}
+, { "Type": "T1", "Name": "3 LW Spaceships", "file": "example_3_lightweight_spaceships.json"}
 , { "Type": "T1", "Name": "4 Gliders", "file": "example_4_gliders.json"}
 , { "Type": "T2", "Name": "5 Pulsars", "file": "example_5_pulsars.json"}
-]}
+, { "Type": "T2", "Name": " --------------------------"}
+]
+}

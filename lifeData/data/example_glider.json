@@ -1,3 +1,8 @@
-{"Type":"T1","Name":"Glider","WrapMode":true,"MinRowsCols":[7,15],"Positioning":[[1,1,1,1]],"Speed":9
-, "Text" : ".0. ..0 000"
+{"Name":"Glider","WrapMode":true,"MinRowsCols":[7,15],"Positioning":[[1,1,1,1]],"Speed":9
+,"PTA":[ 
+[".0."],
+["..0"],
+["000"]
+]
+,"link":"https://conwaylife.com/wiki/Glider"
 }

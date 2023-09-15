@@ -1,0 +1,6 @@
+{"Name":"Traffic Light 1","WrapMode":false,"MinRowsCols":[11,11],"Positioning":[[4,4,1,1]],"Speed":9,"Array":[
+[0,1]
+,[1,0],[1,1],[1,2]
+]
+,"link":"JackV2020 discovered this one on 2023-09-27 and does not know if it is a known one. Looks like https://conwaylife.com/wiki/Bullet_heptomino with 3 live cells less."
+}
