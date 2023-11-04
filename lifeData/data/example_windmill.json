@@ -1,0 +1,23 @@
+{"Name":"Windmill","WrapMode":true,"MinRowsCols":[22,22],"Positioning":[[2,2,1,1]],"Speed":9
+,"PTA":[
+["...........O"],
+[".........OO.O"],
+[".......OO"],
+["..........OO"],
+[".......OOO"],
+[""],
+["OOO"],
+["...OO..OOO.OO"],
+["..........OOOOOOO"],
+[".OOOOOOO"],
+[".....OO.OOO..OO"],
+["...............OOO"],
+[""],
+["........OOO"],
+["......OO"],
+[".........OO"],
+[".....O.OO"],
+["......O"]
+]
+,"link" : "https://conwaylife.com/wiki/Windmill"
+}

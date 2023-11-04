@@ -1,0 +1,12 @@
+{"Name":"Unix","PreferredTheme":"Tux","WrapMode":false,"MinRowsCols":[10,10],"Positioning":[[1,1,1,1]],"Speed":9,"Array":[
+[0,1],[0,2]
+,[1,1],[1,2]
+
+,[3,1]
+,[4,0],[4,2]
+,[5,0],[5,3],[5,6],[5,7]
+,[6,4],[6,6],[6,7]
+,[7,2],[7,3]
+]
+,"link":"https://conwaylife.com/wiki/Unix"
+}

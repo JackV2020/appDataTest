@@ -1,0 +1,9 @@
+{"Name":"Toad","WrapMode":false,"MinRowsCols":[8,8],"Positioning":[[2,2,1,1]],"Speed":9,"Array":[
+[0,2]
+,[1,0],[1,3]
+,[2,0],[2,3]
+,[3,1]
+]
+,"link":"https://conwaylife.com/wiki/Toad"
+}
+

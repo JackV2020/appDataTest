@@ -1,27 +1,33 @@
-  { "Name" : "Black/White"
+{ "Name" : "Black/White"
+, "heartBeat"              : 0
+, "radiusLife"             : 0
+, "colorLife"              : "black"
+, "borderColorLife"        : "black"
+, "borderWidthLife"        : 0
 
-     , "heartBeat"              : 0
-     , "radiusLife"             : 0
-     , "colorLife"              : "black"
-     , "borderColorLife"        : "black"
-     , "borderWidthLife"        : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "radiusDim"              : 0
-     , "colorDimLife"           : "white"
-     , "borderColorDimLife"     : "white"
-     , "borderWidthDimLife"     : 0
+, "radiusDim"              : 0
+, "colorDimLife"           : "white"
+, "borderColorDimLife"     : "white"
+, "borderWidthDimLife"     : 0
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
 
-  }
-
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

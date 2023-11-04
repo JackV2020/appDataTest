@@ -1,0 +1,19 @@
+{"Name":"Unicycle","WrapMode":true,"MinRowsCols":[18,18],"Positioning":[[2,2,1,1]],"Speed":9
+,"PTA":[
+["..OO...OOOO"],
+["..OO..O....O"],
+["OO.O..O...O.O"],
+["OOO....O...O.O"],
+[".............O"],
+[".............O"],
+[".OO.......O..O"],
+["O..O.......OO"],
+["O"],
+["O"],
+["O.O...O....OOO"],
+[".O.O...O..O.OO"],
+["..O....O..OO"],
+["...OOOO...OO"]
+]
+,"link" : "https://conwaylife.com/wiki/Unicycle"
+}

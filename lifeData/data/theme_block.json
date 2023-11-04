@@ -1,24 +1,33 @@
- { "Name" : "Block"
-     , "heartBeat"              : 0
-     , "radiusLife"             : "0"
-     , "colorLife"              : "black"
-     , "borderColorLife"        : "#dbdbdb"
-     , "borderWidthLife"        : "cellSize / 4"
+{ "Name" : "Block"
+, "heartBeat"              : 0
+, "radiusLife"             : "0"
+, "colorLife"              : "black"
+, "borderColorLife"        : "#dbdbdb"
+, "borderWidthLife"        : "cellSize / 4"
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "radiusDim"              : "0"
-     , "colorDimLife"           : "white"
-     , "borderColorDimLife"     : "black"
-     , "borderWidthDimLife"     : "cellSize / 4"
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
-  }
+, "radiusDim"              : "0"
+, "colorDimLife"           : "white"
+, "borderColorDimLife"     : "black"
+, "borderWidthDimLife"     : "cellSize / 4"
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

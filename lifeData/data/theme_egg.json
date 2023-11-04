@@ -1,24 +1,33 @@
- { "Name" : "Egg"
-     , "heartBeat"              : 0
-     , "radiusLife"             : "cellSize / 2"
-     , "colorLife"              : "yellow"
-     , "borderColorLife"        : "white"
-     , "borderWidthLife"        : "cellSize / 4"
+{ "Name" : "Egg"
+, "heartBeat"              : 0
+, "radiusLife"             : "cellSize / 2"
+, "colorLife"              : "yellow"
+, "borderColorLife"        : "white"
+, "borderWidthLife"        : "cellSize / 4"
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "radiusDim"              : "cellSize / 2"
-     , "colorDimLife"           : "yellow"
-     , "borderColorDimLife"     : "white"
-     , "borderWidthDimLife"     : "cellSize / 4"
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
-  }
+, "radiusDim"              : "cellSize / 2"
+, "colorDimLife"           : "yellow"
+, "borderColorDimLife"     : "white"
+, "borderWidthDimLife"     : "cellSize / 4"
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

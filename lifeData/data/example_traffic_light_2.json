@@ -1,0 +1,9 @@
+{"Name":"Traffic Light 2","WrapMode":true,"MinRowsCols":[11,11],"Positioning":[[3,3,1,1]],"Speed":9,"Array":[
+[0,0],[0,4]
+,[1,1],[1,3]
+,[2,2]
+,[3,1],[3,3]
+,[4,0],[4,4]
+]
+,"link":"Based on https://conwaylife.com/wiki/Fuse. JackV2020 discovered this one on 2023-09-27 and does not know if it is a known one."
+}

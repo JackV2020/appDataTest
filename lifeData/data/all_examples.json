@@ -6,6 +6,79 @@
 
 , { "comment" : "Types T1 and T2 are reserved by me since I am preparing and testing these."}
 
+, { "Type": "T1x", "Name": "0 Test", "file": "example_0_test.json"}
+
+, { "Type": "T2", "Name": " >> New Glider Guns" }
+, { "Type": "T2", "Name": "P25 Glider Gun", "file": "example_p25_glider_gun_mitchell_riley.json"}
+, { "Type": "T2", "Name": "P45 Glider Gun", "file": "example_p45_glider_gun_matthias_merzenich.json"}
+, { "Type": "T2x", "Name": "P48 Glider Gun", "file": "example_p48_glider_gun_tanner_jacobi.json"}
+, { "Type": "T2x", "Name": "Simkin Glider Gun", "file": "example_simkin_glider_gun.json"}
+
+, { "Type": "T1", "Name": " >> New Methuselahs"}
+, { "Type": "T1", "Name": "Fireworks", "file": "example_fireworks.json" }
+, { "Type": "T1x", "Name": "Pulsar Egg", "file": "example_pulsar_egg.json" }
+, { "Type": "T2x", "Name": "Traffic Light Cross", "file": "example_traffic_light_cross.json" }
+, { "Type": "T2x", "Name": "Traffic Light 2", "file": "example_traffic_light_2.json"}
+, { "Type": "T2", "Name": "Venetian Blinkers (Fixed Room)", "file": "example_venetian_blinds_blinkers_fixed_room.json" }
+, { "Type": "T2", "Name": "Venetian Blinkers (Fixed Wrap)", "file": "example_venetian_blinds_blinkers_fixed_wrap.json" }
+
+, { "Type": "T1", "Name": " >> New Oscillators" }
+, { "Type": "T1", "Name": "101", "file": "example_101.json" }
+, { "Type": "T2x", "Name": "1-2-3-4", "file": "example_1_2_3_4.json" }
+, { "Type": "T2", "Name": "Beluchenko's p51", "file": "example_beluchenkos_p51.json" }
+, { "Type": "T1x", "Name": "Bottle", "file": "example_bottle.json"}
+, { "Type": "T2", "Name": "Achim's p144", "file": "example_achims_p144.json" }
+, { "Type": "T2x", "Name": "Clock", "file": "example_clock.json" }
+, { "Type": "T2", "Name": "Cross", "file": "example_cross.json" }
+, { "Type": "T2x", "Name": "David Hilbert", "file": "example_david_hilbert.json" }
+, { "Type": "T2", "Name": "Gabriel's p138", "file": "example_gabriels_p138.json" }
+, { "Type": "T2x", "Name": "Gray Counter", "file": "example_gray_counter.json" }
+, { "Type": "T2", "Name": "Hectic", "file": "example_hectic.json" }
+, { "Type": "T2x", "Name": "Karels p15", "file": "example_karels_p15.json" }
+, { "Type": "T2", "Name": "Kok's Galaxy", "file": "example_koks_galaxy.json" }
+, { "Type": "T1x", "Name": "Maltese Cross", "file": "example_maltese_cross.json" }
+, { "Type": "T2", "Name": "Phoenix", "file": "example_phoenix.json" }
+, { "Type": "T2x", "Name": "Phoenix Heart", "file": "example_phoenix_heart.json" }
+, { "Type": "T1", "Name": "Pinwheel", "file": "example_pinwheel.json" }
+, { "Type": "T2x", "Name": "Queen Bee Loop", "file": "example_queen_bee_loop.json" }
+, { "Type": "T2", "Name": "Toad", "file": "example_toad.json" }
+, { "Type": "T2x", "Name": "Twirling T-tetsons II", "file": "example_twirling_t_tetsons_ii.json" }
+, { "Type": "T1", "Name": "Star", "file": "example_star.json" }
+, { "Type": "T2x", "Name": "Tumbler", "file": "example_tumbler.json" }
+, { "Type": "T1x", "Name": "Unicycle", "file": "example_unicycle.json" }
+, { "Type": "T2", "Name": "Unix", "file": "example_unix.json" }
+, { "Type": "T2x", "Name": "Venetian Blinds (Fixed)", "file": "example_venetian_blinds_fixed.json" }
+, { "Type": "T1x", "Name": "Windmill", "file": "example_windmill.json" }
+
+, { "Type": "T1", "Name": " >> New Space Ships" }
+, { "Type": "T2", "Name": "Barge 2 Spaceship", "file": "example_barge_2_spaceship.json" }
+, { "Type": "T2x", "Name": "Coe-ship", "file": "example_coe_ship.json" }
+, { "Type": "T2x", "Name": "Copperhead", "file": "example_copperhead.json" }
+, { "Type": "T2", "Name": "Dart Spaceship", "file": "example_dart_spaceship.json" }
+, { "Type": "T2x", "Name": "Ecologist", "file": "example_ecologist.json" }
+, { "Type": "T2", "Name": "Hammerhead", "file": "example_hammerhead.json"  }
+, { "Type": "T1", "Name": "Heavy Weight Spaceship", "file": "example_heavy_weight_spaceship.json"  }
+, { "Type": "T2x", "Name": "Hivenudger", "file": "example_hivenudger.json"  }
+, { "Type": "T2x", "Name": "Lobster", "file": "example_lobster.json" }
+, { "Type": "T1", "Name": "Middleweight Spaceship", "file": "example_middleweight_spaceship.json"  }
+, { "Type": "T2x", "Name": "Negative Spaceship", "file": "example_negative_spaceship.json" }
+, { "Type": "T2x", "Name": "Sidewinder", "file": "example_sidewinder.json" }
+, { "Type": "T2x", "Name": "Snail", "file": "example_snail.json" }
+, { "Type": "T2x", "Name": "Summers Spaceship", "file": "example_summers_spaceship.json" }
+, { "Type": "T2x", "Name": "Taco", "file": "example_taco.json" }
+, { "Type": "T2x", "Name": "Turtle", "file": "example_turtle.json" }
+, { "Type": "T1", "Name": "Wasp", "file": "example_wasp.json" }
+, { "Type": "T2x", "Name": "Weekender", "file": "example_weekender.json" }
+, { "Type": "T2", "Name": "X66", "file": "example_x66.json" }
+
+, { "Type": "T2", "Name": " >> New Wicks" }
+, { "Type": "T2", "Name": "Glider-block", "file": "example_glider_block.json" }
+, { "Type": "T2x", "Name": "Blinker Fuse", "file": "example_blinker_fuse.json" }
+
+, { "Type": "T2", "Name": " >> New Combinations"}
+, { "Type": "T2x", "Name": "2 x X66", "file": "example_2_x_x66.json" }
+, { "Type": "T2", "Name": "Swan and Goose", "file": "example_swan_and_goose.json" }
+
 , { "Type": "T1", "Name": " - -- --- Starters --- -- -"}
 , { "Type": "T1", "Name": "Toon", "file": "example_toon.json"}
 , { "Type": "T1", "Name": "Random", "file": "example_random.json"}
@@ -35,7 +108,7 @@
 , { "Type": "T2", "Name": "Spider", "file": "example_spider.json"}
 , { "Type": "T2", "Name": "Swan", "file": "example_swan.json"}
 
-, { "Type": "T222", "Name": " - -- --- Wicks --- -- -"}
+, { "Type": "T2", "Name": " - -- --- Wicks --- -- -"}
 
 , { "Type": "T1", "Name": " - -- --- Combinations --- -- -"}
 , { "Type": "T2", "Name": "2 Gosper Glider Guns", "file": "example_2_gosper_glider_guns.json"}
@@ -43,5 +116,4 @@
 , { "Type": "T1", "Name": "4 Gliders", "file": "example_4_gliders.json"}
 , { "Type": "T2", "Name": "5 Pulsars", "file": "example_5_pulsars.json"}
 , { "Type": "T2", "Name": " --------------------------"}
-]
-}
+]}

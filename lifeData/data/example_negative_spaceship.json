@@ -1,0 +1,36 @@
+{"Name":"Negative Ship","PreferredTheme":"Black/White","WrapMode":true,"SetRowsCols":[32,61],"Positioning":[[0,0,1,1]],"Speed":9
+,"PTA":[
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"],
+["............................................................."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO..OOOOOOOOOOOOOOOOOOO"],
+["....................................OO...OO.................."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO...OO...OOOO..OOOOOOOOOOOO"],
+["...............................OO...............OO..........."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO...OO.....OO...OO..OOOOOOO"],
+["....................................OO...O.OO........OO......"],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO..OOO...OO.....OO...OOOOOO"],
+["...............................OO............OO.OO..........."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO...OOOOO..........OO.....OOOOOO"],
+["..................................O...............OO.OO......"],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.....O.........O.......OO..OOOO"],
+["...............................O.O......O...O..........OO...."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO...O.O.OOOOO......O.......OOOOO"],
+["....................................OOO...O......O..........."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO...O.O.OOOOO......O.......OOOOO"],
+["...............................O.O......O...O..........OO...."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.....O.........O.......OO..OOOO"],
+["..................................O...............OO.OO......"],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO...OOOOO..........OO.....OOOOOO"],
+["...............................OO............OO.OO..........."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO..OOO...OO.....OO...OOOOOO"],
+["....................................OO...O.OO........OO......"],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO...OO.....OO...OO..OOOOOOO"],
+["...............................OO...............OO..........."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO...OO...OOOO..OOOOOOOOOOOO"],
+["....................................OO...OO.................."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO..OOO..OOOOOOOOOOOOOOOOOOO"],
+["............................................................."],
+["OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"]
+]
+,"link" : "https://conwaylife.com/wiki/Negative_spaceship"
+}

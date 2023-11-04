@@ -1,0 +1,33 @@
+{ "Name" : "Tomato (5 sec)"
+, "heartBeat"              : 5
+, "radiusLife"             : "cellSize / 2"
+, "colorLife"              : "red"
+, "borderColorLife"        : "#dbdbdb"
+, "borderWidthLife"        : "cellSize / 5"
+
+, "cellText"               : "*"
+, "cellTextColor"          : "green"
+, "cellTextColor2"         : "lime"
+, "cellTextPixelSize"      : "cellSize / 2"
+     
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
+
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
+
+, "radiusDim"              : "cellSize / 2"
+, "colorDimLife"           : "red"
+, "borderColorDimLife"     : "red"
+, "borderWidthDimLife"     : "cellSize / 2"
+
+, "cellTextDim"            : "*"
+, "cellTextColorDim"       : "green"
+, "cellTextPixelSizeDim"   : "cellSize / 2"
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

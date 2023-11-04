@@ -1,0 +1,36 @@
+{ "Name" : "Smiley"
+, "heartBeat"              : 0
+, "radiusLife"             : 0
+, "colorLife"              : "transparent"
+, "borderColorLife"        : "transparent"
+, "borderWidthLife"        : 0
+
+, "cellText"               : "transparent"
+, "cellTextColor"          : "transparent"
+, "cellTextColor2"         : "transparent"
+, "cellTextPixelSize"      : 1
+     
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
+
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
+
+, "radiusDim"              : 0
+, "colorDimLife"           : "transparent"
+, "borderColorDimLife"     : "transparent"
+, "borderWidthDimLife"     : 0
+
+, "cellTextDim"            : "transparent"
+, "cellTextColorDim"       : "transparent"
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "transparent"
+, "borderColorDimDead"     : "transparent"
+, "borderWidthDimDead"     : 0
+
+, "image"                  : "smiley.png"
+, "imageDim"               : "smiley.png"
+}

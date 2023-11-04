@@ -10,7 +10,9 @@
 , { "Name" : "Egg" , "file" : "theme_egg.json" }
 , { "Name" : "Kiwi Gold" , "file" : "theme_kiwi_gold.json" }
 , { "Name" : "Kiwi Green" , "file" : "theme_kiwi_green.json" }
+, { "Name" : "Olive/Olive" , "file" : "theme_olive_olive.json" }
 , { "Name" : "Orange" , "file" : "theme_orange.json" }
+, { "Name" : "Star" , "file" : "theme_star.json" }
 , { "Name" : "Stop Sign" , "file" : "theme_stop_sign.json" }
 , { "Name" : "Tomato" , "file" : "theme_tomato.json" }
 , { "Name" : "Tomato Soup" , "file" : "theme_tomato_soup.json" }
@@ -19,5 +21,12 @@
 , { "Name" : " - -- --- Timer --- -- -"}
 , { "Name" : "Banana (2 sec)" , "Type" : "timer" , "file" : "theme_banana_2.json" }
 , { "Name" : "Plum (2 sec)"   , "Type" : "timer" , "file" : "theme_plum_2.json" }
+, { "Name" : "Star (5 sec)"   , "Type" : "timer" , "file" : "theme_star_5.json" }
+, { "Name" : "Tomato (5 sec)" , "Type" : "timer" , "file" : "theme_tomato_5.json" }
 , { "Name" : "Water (2 sec)"  , "Type" : "timer" , "file" : "theme_water_2.json" }
+, { "Name" : " - -- --- Image --- -- -"}
+, { "Name" : "Cloud"  , "Type" : "img" , "file" : "theme_cloud.json"  }
+, { "Name" : "Heart"  , "Type" : "img" , "file" : "theme_heart.json" }
+, { "Name" : "Smiley" , "Type" : "img" , "file" : "theme_smiley.json" }
+, { "Name" : "Tux" , "file" : "theme_tux.json" }
 ]}

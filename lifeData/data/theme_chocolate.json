@@ -1,24 +1,33 @@
- { "Name" : "Chocolate"
-     , "heartBeat"              : 0
-     , "radiusLife"             : "cellSize / 4"
-     , "colorLife"              : "chocolate"
-     , "borderColorLife"        : "brown"
-     , "borderWidthLife"        : 4
+{ "Name" : "Chocolate"
+, "heartBeat"              : 0
+, "radiusLife"             : "cellSize / 4"
+, "colorLife"              : "chocolate"
+, "borderColorLife"        : "brown"
+, "borderWidthLife"        : 4
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "radiusDim"              : "cellSize / 4"
-     , "colorDimLife"           : "chocolate"
-     , "borderColorDimLife"     : "brown"
-     , "borderWidthDimLife"     : 4
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
-  }
+, "radiusDim"              : "cellSize / 4"
+, "colorDimLife"           : "chocolate"
+, "borderColorDimLife"     : "brown"
+, "borderWidthDimLife"     : 4
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

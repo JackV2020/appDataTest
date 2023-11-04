@@ -1,0 +1,33 @@
+{ "Name" : "Olive/Olive"
+, "heartBeat"              : 0
+, "radiusLife"             : 0
+, "colorLife"              : "olive"
+, "borderColorLife"        : "olive"
+, "borderWidthLife"        : 0
+
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
+
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
+
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
+
+, "radiusDim"              : 0
+, "colorDimLife"           : "olive"
+, "borderColorDimLife"     : "olive"
+, "borderWidthDimLife"     : 0
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

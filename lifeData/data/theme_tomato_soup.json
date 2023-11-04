@@ -1,24 +1,33 @@
- { "Name" : "Tomato Soup"
-     , "heartBeat"              : 0
-     , "radiusLife"             : "cellSize / 2"
-     , "colorLife"              : "red"
-     , "borderColorLife"        : "white"
-     , "borderWidthLife"        : "cellSize / 5"
+{ "Name" : "Tomato Soup"
+, "heartBeat"              : 0
+, "radiusLife"             : "cellSize / 2"
+, "colorLife"              : "red"
+, "borderColorLife"        : "white"
+, "borderWidthLife"        : "cellSize / 5"
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "radiusDim"              : "cellSize / 2"
-     , "colorDimLife"           : "red"
-     , "borderColorDimLife"     : "white"
-     , "borderWidthDimLife"     : "cellSize / 5"
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
-  }
+, "radiusDim"              : "cellSize / 2"
+, "colorDimLife"           : "red"
+, "borderColorDimLife"     : "white"
+, "borderWidthDimLife"     : "cellSize / 5"
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

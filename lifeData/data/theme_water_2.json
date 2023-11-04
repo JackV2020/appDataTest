@@ -1,24 +1,33 @@
- { "Name" : "Water (2 sec)"
-     , "heartBeat"              : 2
-     , "radiusLife"             : "cellSize / 6"
-     , "colorLife"              : "white"
-     , "borderColorLife"        : "aqua"
-     , "borderWidthLife"        : "Math.max( 2, cellSize * 0.45 )"
+{ "Name" : "Water (2 sec)"
+, "heartBeat"              : 2
+, "radiusLife"             : "cellSize / 6"
+, "colorLife"              : "white"
+, "borderColorLife"        : "aqua"
+, "borderWidthLife"        : "Math.max( 2, cellSize * 0.45 )"
 
-     , "colorDeadNoClick"       : "transparent"
-     , "borderColorDeadNoClick" : "white"
-     , "borderWidthDeadNoClick" : 0
+, "cellText"               : ""
+, "cellTextColor"          : ""
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : 1
 
-     , "colorDeadClick"         : "white"
-     , "borderColorDeadClick"   : "pink"
-     , "borderWidthDeadClick"   : 1
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
 
-     , "radiusDim"              : "cellSize / 6"
-     , "colorDimLife"           : "white"
-     , "borderColorDimLife"     : "aqua"
-     , "borderWidthDimLife"     : "Math.max( 2, cellSize * 0.45 )"
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
 
-     , "colorDimDead"           : "black"
-     , "borderColorDimDead"     : "black"
-     , "borderWidthDimDead"     : 0
-  }
+, "radiusDim"              : "cellSize / 6"
+, "colorDimLife"           : "white"
+, "borderColorDimLife"     : "aqua"
+, "borderWidthDimLife"     : "Math.max( 2, cellSize * 0.45 )"
+
+, "cellTextDim"            : ""
+, "cellTextColorDim"       : ""
+, "cellTextPixelSizeDim"   : 1
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}

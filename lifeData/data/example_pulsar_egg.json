@@ -1,0 +1,15 @@
+{"Name":"Pulsar Egg","WrapMode":true,"MinRowsCols":[17,17],"Positioning":[[7,6,1,1]],"Speed":9
+,"PTA":[
+["OOOOO"],
+["O...O"],
+["OOOOO"]
+]
+,"PTA1 for positioning 6,7,1,1":[
+["OOO"],
+["O.O"],
+["O.O"],
+["O.O"],
+["OOO"]
+]
+,"link" : "JackV2020 discovered this one on 2023-09-27 and does not know if it is a known one."
+}

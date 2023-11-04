@@ -1,0 +1,17 @@
+{"Name":"Traffic Light Cross","WrapMode":true,"MinRowsCols":[15,15],"Positioning":[[1,1,1,1]],"Speed":9,"Array":[
+[0,0],[0,12]
+,[1,1],[1,11]
+,[2,2],[2,10]
+,[3,3],[3,9]
+,[4,4],[4,8]
+,[5,5],[5,7]
+,[6,6]
+,[7,5],[7,7]
+,[8,4],[8,8]
+,[9,3],[9,9]
+,[10,2],[10,10]
+,[11,1],[11,11]
+,[12,0],[12,12]
+]
+,"link":"Based on https://conwaylife.com/wiki/Fuse. JackV2020 discovered this one on 2023-09-27 and does not know if it is a known one."
+}

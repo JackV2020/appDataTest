@@ -1,0 +1,37 @@
+{ "Name" : "Toon"
+, "heartBeat"              : 0
+, "radiusLife"             : "cellSize / 2"
+, "colorLife"              : "transparent"
+, "borderColorLife"        : "transparent"
+, "borderWidthLife"        : 0
+
+, "cellText"               : "TO\nON"
+, "cellTextColor"          : "orangered"
+, "cellTextColor2"         : ""
+, "cellTextPixelSize"      : "cellSize / 3"
+     
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
+
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
+
+, "radiusDim"              : "cellSize / 2"
+, "colorDimLife"           : "black"
+, "borderColorDimLife"     : "black"
+, "borderWidthDimLife"     : 0
+
+, "cellTextDim"            : "TO\nON"
+, "cellTextColorDim"       : "orangered"
+, "cellTextPixelSizeDim"   : "cellSize / 3"
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+
+, "image"                  : "Tux.png"
+, "imageDim"               : "Tux.png"
+
+}

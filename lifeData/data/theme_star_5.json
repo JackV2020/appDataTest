@@ -1,0 +1,33 @@
+{ "Name" : "Star (5 sec)"
+, "heartBeat"              : 5
+, "radiusLife"             : "cellSize / 2"
+, "colorLife"              : "transparent"
+, "borderColorLife"        : "transparent"
+, "borderWidthLife"        : "Math.max( 2, cellSize * 0.05 )"
+
+, "cellText"               : "*"
+, "cellTextColor"          : "red"
+, "cellTextColor2"         : "yellow"
+, "cellTextPixelSize"      : "cellSize * 1.3"
+     
+, "colorDeadNoClick"       : "transparent"
+, "borderColorDeadNoClick" : "white"
+, "borderWidthDeadNoClick" : 0
+
+, "colorDeadClick"         : "white"
+, "borderColorDeadClick"   : "pink"
+, "borderWidthDeadClick"   : 1
+
+, "radiusDim"              : "cellSize / 2"
+, "colorDimLife"           : "black"
+, "borderColorDimLife"     : "black"
+, "borderWidthDimLife"     : "Math.max( 2, cellSize * 0.05 )"
+
+, "cellTextDim"            : "*"
+, "cellTextColorDim"       : "red"
+, "cellTextPixelSizeDim"   : "cellSize * 1.3"
+
+, "colorDimDead"           : "black"
+, "borderColorDimDead"     : "black"
+, "borderWidthDimDead"     : 0
+}
