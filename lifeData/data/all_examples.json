@@ -10,48 +10,48 @@
 
 , { "Type": "T2", "Name": " >> New Glider Guns" }
 , { "Type": "T2x", "Name": "P48 Glider Gun", "file": "example_p48_glider_gun_tanner_jacobi.json"}
-, { "Type": "T2x", "Name": "Simkin Glider Gun", "file": "example_simkin_glider_gun.json"}
+, { "Type": "T2", "Name": "Simkin Glider Gun", "file": "example_simkin_glider_gun.json"}
 
 , { "Type": "T1", "Name": " >> New Methuselahs"}
-, { "Type": "T1x", "Name": "Pulsar Egg", "file": "example_pulsar_egg.json" }
-, { "Type": "T2x", "Name": "Traffic Light Cross", "file": "example_traffic_light_cross.json" }
+, { "Type": "T1", "Name": "Pulsar Egg", "file": "example_pulsar_egg.json" }
+, { "Type": "T2", "Name": "Traffic Light Cross", "file": "example_traffic_light_cross.json" }
 , { "Type": "T2x", "Name": "Traffic Light 2", "file": "example_traffic_light_2.json"}
 
 , { "Type": "T1", "Name": " >> New Oscillators" }
-, { "Type": "T2x", "Name": "1-2-3-4", "file": "example_1_2_3_4.json" }
+, { "Type": "T2", "Name": "1-2-3-4", "file": "example_1_2_3_4.json" }
 , { "Type": "T1x", "Name": "Bottle", "file": "example_bottle.json"}
-, { "Type": "T2x", "Name": "Clock", "file": "example_clock.json" }
-, { "Type": "T2x", "Name": "David Hilbert", "file": "example_david_hilbert.json" }
+, { "Type": "T2", "Name": "Clock", "file": "example_clock.json" }
+, { "Type": "T2", "Name": "David Hilbert", "file": "example_david_hilbert.json" }
 , { "Type": "T2x", "Name": "Gray Counter", "file": "example_gray_counter.json" }
-, { "Type": "T2x", "Name": "Karels p15", "file": "example_karels_p15.json" }
+, { "Type": "T2", "Name": "Karels p15", "file": "example_karels_p15.json" }
 , { "Type": "T1x", "Name": "Maltese Cross", "file": "example_maltese_cross.json" }
-, { "Type": "T2x", "Name": "Phoenix Heart", "file": "example_phoenix_heart.json" }
+, { "Type": "T2", "Name": "Phoenix Heart", "file": "example_phoenix_heart.json" }
 , { "Type": "T2x", "Name": "Queen Bee Loop", "file": "example_queen_bee_loop.json" }
 , { "Type": "T2x", "Name": "Twirling T-tetsons II", "file": "example_twirling_t_tetsons_ii.json" }
 , { "Type": "T2x", "Name": "Tumbler", "file": "example_tumbler.json" }
 , { "Type": "T1x", "Name": "Unicycle", "file": "example_unicycle.json" }
-, { "Type": "T2x", "Name": "Venetian Blinds (Fixed)", "file": "example_venetian_blinds_fixed.json" }
+, { "Type": "T2", "Name": "Venetian Blinds (Fixed)", "file": "example_venetian_blinds_fixed.json" }
 , { "Type": "T1x", "Name": "Windmill", "file": "example_windmill.json" }
 
 , { "Type": "T1", "Name": " >> New Space Ships" }
 , { "Type": "T2x", "Name": "Coe-ship", "file": "example_coe_ship.json" }
-, { "Type": "T2x", "Name": "Copperhead", "file": "example_copperhead.json" }
+, { "Type": "T2", "Name": "Copperhead", "file": "example_copperhead.json" }
 , { "Type": "T2x", "Name": "Ecologist", "file": "example_ecologist.json" }
 , { "Type": "T2x", "Name": "Hivenudger", "file": "example_hivenudger.json"  }
-, { "Type": "T2x", "Name": "Lobster", "file": "example_lobster.json" }
+, { "Type": "T2", "Name": "Lobster", "file": "example_lobster.json" }
 , { "Type": "T2x", "Name": "Negative Spaceship", "file": "example_negative_spaceship.json" }
-, { "Type": "T2x", "Name": "Sidewinder", "file": "example_sidewinder.json" }
+, { "Type": "T2", "Name": "Sidewinder", "file": "example_sidewinder.json" }
 , { "Type": "T2x", "Name": "Snail", "file": "example_snail.json" }
 , { "Type": "T2x", "Name": "Summers Spaceship", "file": "example_summers_spaceship.json" }
 , { "Type": "T2x", "Name": "Taco", "file": "example_taco.json" }
-, { "Type": "T2x", "Name": "Turtle", "file": "example_turtle.json" }
-, { "Type": "T2x", "Name": "Weekender", "file": "example_weekender.json" }
+, { "Type": "T2", "Name": "Turtle", "file": "example_turtle.json" }
+, { "Type": "T2", "Name": "Weekender", "file": "example_weekender.json" }
 
-, { "Type": "T2", "Name": " >> New Wicks" }
+, { "Type": "T2x", "Name": " >> New Wicks" }
 , { "Type": "T2x", "Name": "Blinker Fuse", "file": "example_blinker_fuse.json" }
 
 , { "Type": "T2", "Name": " >> New Combinations"}
-, { "Type": "T2x", "Name": "2 x X66", "file": "example_2_x_x66.json" }
+, { "Type": "T2", "Name": "2 x X66", "file": "example_2_x_x66.json" }
 
 , { "Type": "T1", "Name": " - -- --- Starters --- -- -"}
 , { "Type": "T1", "Name": "Toon", "file": "example_toon.json"}
